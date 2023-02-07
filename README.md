@@ -14,3 +14,11 @@ git commit -m "first commit" //把文件提交到仓库
 git remote add origin git@github.com:johnzhuang1024/File-Download.git //关联远程仓库
 
 git push -u origin main //把本地库的所有内容推送到远程库上
+
+==========================================================================
+
+git remote rm origin // 删除关联的origin的远程库
+
+git push -u origin main //把本地库的所有内容推送到远程库上
+
+git pull --rebase origin master //把远程库中的更新合并到本地库中，–rebase的作用是取消掉本地库中刚刚的commit，并把他们接到更新后的版本库之中
