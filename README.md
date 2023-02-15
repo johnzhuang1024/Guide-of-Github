@@ -26,7 +26,9 @@ git pull --rebase origin main //把远程库中的更新合并到本地库中，
 ==========================================================================
 问题：
 遇到error: failed to push some refs to 'github.com:johnzhuang1024/File-Download.git'
+
 解决方案：
+
 git pull --rebase origin main
 
 git push origin main
